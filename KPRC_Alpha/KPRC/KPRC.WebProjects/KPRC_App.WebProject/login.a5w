@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<!-- must use in order to make XP Themes render -->
+<meta HTTP-EQUIV="MSThemeCompatible" content="Yes" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="mobile-web-app-capable" content="yes" />
+
+<head>
+
+
+<!--You can define a page comment and description that will be displayed in the Web Control Panel. For example-->
+<!-- comment -- comment -->
+<!-- description -- description -->
+
+<%a5
+
+
+Delete tmpl_LOGIN
+DIM tmpl_LOGIN as P
+tmpl_LOGIN = a5w_load_component("LOGIN") ''SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (LOAD:LOGIN)
+
+'Override settings start -----------------------------------------
+with tmpl_LOGIN
+.alias = "LOGIN"
+_dialogFilename = "LOGIN"
+end with 
+'Override settings end -----------------------------------------
+
+delete x_LOGIN
+dim x_LOGIN as p
+x_LOGIN = a5w_run_Component(tmpl_LOGIN) 'SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (RUN:tmpl) (EDIT:LOGIN)
+
+?x_LOGIN.Output.Head.JavaScript
+?x_LOGIN.Output.Head.CSS_Link
+
+?x_LOGIN.Output.Head.Title 
+%>
+
+
+
+
+</head>
+
+
+<body class="page pulse ">
+
+
+
+
+<%a5 ?x_LOGIN.Output.Body.Dialog2_HTML %>
+<%a5 ?a5dialogHelper_generateCORSHeaders() %>
+
+</body>
+
+</html>
+

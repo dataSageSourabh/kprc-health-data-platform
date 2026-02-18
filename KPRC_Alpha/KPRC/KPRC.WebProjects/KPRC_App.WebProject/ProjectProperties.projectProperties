@@ -1,0 +1,358 @@
+{
+	"aexFiles": {
+		"fileNames": "C:\\A5Webroot\\__AAFunctionLibrary_login.aex\r\n"
+	},
+	"projectGUID": {
+		"projectGUID": ""
+	},
+	"fileDownload": {
+		"allowedFilenamePatterns": "*.xls*,*.pdf,*.jpg,*.jpeg,*.bmp,*.png,*.rtf,*.zip",
+		"allowedFolderPatterns": "",
+		"blockedFilenamePatterns": ""
+	},
+	"reportServer": {
+		"disable": true
+	},
+	"oneSignal": {
+		"enable": false,
+		"appid": ""
+	},
+	"reportEvents": {
+		"afterPrint": "",
+		"beforePrint": "",
+		"library": ""
+	},
+	"projectStyle": "Alpha",
+	"projectConnectionString": "::Name::KPRC",
+	"useDirectPdf": false,
+	"useMicrosoftXPSPrinterForPDF": false,
+	"useBSONforSQLreporting": true,
+	"convertXPSToPDF": true,
+	"swapLatLngForMysql": true,
+	"PDFPrintTimeout": 0,
+	"PDFOptions": "",
+	"PDFPrintTimeoutMessage": "",
+	"PDFMaxPages": 1000,
+	"HTMLReportOffload": false,
+	"jsLibraries": {
+		"jQueryCore": "None",
+		"jQueryUI": "None",
+		"links": "",
+		"includeImageGallery": false,
+		"includejitsimeet": false,
+		"includeGoogleJSAPI": false,
+		"includeCKEdit": false,
+		"jQueryCoreVersion": "1.6.2",
+		"jQueryUIVersion": "1.8.16",
+		"cordova": {
+			"loadFrom": "BuiltIn"
+		},
+		"vuejs": "None"
+	},
+	"cssLibraries": {
+		"links": "",
+		"jQuery": "No Theme"
+	},
+	"autoBackupFolder": "",
+	"deleteIfOlderThanDays": "",
+	"designTime": {
+		"autoCompileAEXForWorkingPreview": true,
+		"promptToStartServerForLivePreview": true,
+		"encryptConnectionStrings": true,
+		"saveFileType": "",
+		"showPublishCompleteDialog": false,
+		"livePreviewMachineName": "localhost",
+		"encryptPublishedComponents": false,
+		"publishFireStoreConnectionStrings": false,
+		"suppressConnectionStringWarnings": false,
+		"publishdefaultfontmappingfile": true,
+		"publishDefaultRobotsTxtFile": true,
+		"Processaliases": false,
+		"suppressnousersdefined": false
+	},
+	"googleMapsAPIKey": "",
+	"useHTTPSforStaicMaps": false,
+	"googleStaticMapsAPIKey": "",
+	"NamedResources": "",
+	"websocket": {
+		"enable": false,
+		"longpolling": false,
+		"port": "",
+		"using": "Simple",
+		"redis_url": "",
+		"redis_host": "",
+		"redis_port": ""
+	},
+	"email": {
+		"smtp_server": "",
+		"smtp_username": "",
+		"smtp_password": "",
+		"smtp_port": "",
+		"smtp_SSLOption": "",
+		"defaultmethod": "Internal",
+		"from": "",
+		"from_alias": "",
+		"mandrillKey": "",
+		"sparkPostKey": "",
+		"outbox": {
+			"tableType": "SQL",
+			"connectionString": "",
+			"tableName": "",
+			"fieldmap": "",
+			"sequenceName": "",
+			"result": {
+				"error": false,
+				"errorText": ""
+			}
+		}
+	},
+	"repository": {
+		"tableType": "SQL",
+		"connectionString": "::Name::KPRC",
+		"tableName": "AASystemTable_Repository",
+		"fieldmap": "",
+		"sequenceName": "",
+		"result": {
+			"error": false,
+			"errorText": ""
+		}
+	},
+	"globalSettings": {
+		"tableType": "SQL",
+		"connectionString": "::Name::KPRC",
+		"tableName": "AASystemTable_GlobalSettings",
+		"fieldmap": "",
+		"sequenceName": "",
+		"result": {
+			"error": false,
+			"errorText": ""
+		}
+	},
+	"workQueue": {
+		"tableType": "SQL",
+		"connectionString": "",
+		"tableName": "",
+		"fieldmap": "",
+		"sequenceName": "",
+		"result": {
+			"error": false,
+			"errorText": ""
+		}
+	},
+	"helpTable": {
+		"tableType": "SQL",
+		"connectionString": "::Name::KPRC",
+		"tableName": "AASystemTable_Help",
+		"fieldmap": "",
+		"sequenceName": "",
+		"result": {
+			"error": false,
+			"errorText": ""
+		}
+	},
+	"textDictionary": {
+		"tableType": "SQL",
+		"connectionString": "::Name::KPRC",
+		"tableName": "AASystemTable_TextDictionary",
+		"fieldmap": "",
+		"sequenceName": "",
+		"result": {
+			"error": false,
+			"errorText": ""
+		}
+	},
+	"datasynclogtable": {
+		"tableType": "SQL",
+		"connectionString": "::Name::KPRC",
+		"tableName": "AASystemTable_SyncLog",
+		"fieldmap": "",
+		"sequenceName": "",
+		"result": {
+			"error": false,
+			"errorText": ""
+		}
+	},
+	"cronjoblogtable": {
+		"tableType": "SQL",
+		"connectionString": "",
+		"tableName": "",
+		"fieldmap": "",
+		"sequenceName": "",
+		"result": {
+			"error": false,
+			"errorText": ""
+		}
+	},
+	"authenticationKeys": {
+		"tableType": "SQL",
+		"connectionString": "",
+		"tableName": "",
+		"fieldmap": "",
+		"sequenceName": "",
+		"result": {
+			"error": false,
+			"errorText": ""
+		}
+	},
+	"componentcache": {
+		"tableType": "SQL",
+		"connectionString": "",
+		"tableName": "",
+		"fieldmap": "",
+		"sequenceName": "",
+		"result": {
+			"error": false,
+			"errorText": ""
+		}
+	},
+	"applicationGlobalVariables": "",
+	"calendar": {
+		"license": "not licensed"
+	},
+	"css": {
+		"webkit": {
+			"AllowSelectionOfText": false
+		}
+	},
+	"stripe": {
+		"keysJSON": ""
+	},
+	"siteDefaults": {
+		"guessedDefaultPage": true,
+		"defaultpage": "index.a5w",
+		"useExternalRedirect": false,
+		"maxUploadSizeMB": 100,
+		"sessionTimeout": 15,
+		"sessionCookieName": "XBasic_SessionId",
+		"authenticationCookieName": ".ASPXFORMSAUTH",
+		"cookieSameSite": "Strict",
+		"stackOptions": {
+			"enabled": true,
+			"sizeInKb": 256,
+			"overrides": ""
+		},
+		"httpsRedirectOptions": {
+			"enabled": false,
+			"enableStrictTransportSecurity": true,
+			"includeSubdomains": false,
+			"maxAgeSeconds": 31518720,
+			"overrides": ""
+		},
+		"http01ChallengeOptions": {
+			"enabled": false,
+			"challengeVendor": "LetsEncrypt",
+			"wellknownPath": ".well-known\\acme-challenge"
+		},
+		"extendAuthenticationCookieOnEachRequest": false,
+		"defaultExtensions": "",
+		"executionTimeout": 0
+	},
+	"transform": {
+		"enable": false,
+		"settingsJSON": ""
+	},
+	"debugger": {
+		"allow": false
+	},
+	"googleGeocodingAPIKey": "",
+	"deleteOldBackups": false,
+	"maxNumberOfBackups": "",
+	"minNumberOfBackups": "",
+	"switchYear": "",
+	"auditTable": {
+		"on": true,
+		"tableType": "SQL",
+		"connectionString": "::Name::KPRC",
+		"tableName": "AASystemTable_Audit",
+		"fieldmap": "",
+		"sequenceName": "",
+		"expressionForGettingUserId": ""
+	},
+	"sqlLog": {
+		"connectionString": "::Name::KPRC",
+		"tableName": "AASystemTable_SQLLog",
+		"fieldmap": "",
+		"maxAge": 30,
+		"remoteEnableDisableTableName": ""
+	},
+	"extendedUserInfo": {
+		"tableType": "SQL",
+		"connectionString": "::Name::KPRC",
+		"tableName": "AASystemTable_ExtendedUserInfo",
+		"fieldmap": "",
+		"sequenceName": "",
+		"userIdfield": "UserId"
+	},
+	"tfa": {
+		"twillioAccountSID": "",
+		"twillioAuthCode": "",
+		"twillioPhoneNumber": "",
+		"tokenLife": 7200,
+		"googleAuthenticatorPassword": "<user>",
+		"googleAuthenticatorIssuer": "AlphaAnywhere",
+		"email": {
+			"send_from": "",
+			"send_from_alias": "",
+			"subject": "",
+			"message": ""
+		},
+		"codenotvalidmessage": "Code is not valid",
+		"authcodetype": "Characters",
+		"authcodelength": "6",
+		"twillioMessage": ""
+	},
+	"oauthEvents": {
+		"onGotAccessToken": "",
+		"library": ""
+	},
+	"excelfilesExtension": ".xls",
+	"initializationJavascript": "",
+	"templateformatDirectives": "",
+	"directtopdf": true,
+	"pdfReferenceDevice": "",
+	"defaultFieldEncryptionKey": "",
+	"permissionDeniedReason": "",
+	"federatedAuthentication": {
+		"tableType": "SQL",
+		"connectionString": "",
+		"tableName": "",
+		"fieldmap": ""
+	},
+	"datetimeserversideformat": "",
+	"dateserversideformat": "",
+	"componentSecuritySettings": {
+		"tableType": "SQL",
+		"connectionString": "::Name::KPRC",
+		"tableName": "AASystemTable_ComponentSecurity",
+		"fieldMap": ""
+	},
+	"aggressive_cleanup": false,
+	"responseHeaders": {
+		"includeInsecureHeaders": false,
+		"additionalHeaders": ""
+	},
+	"xbLibraries": {
+		"links": ""
+	},
+	"activeUsers": {
+		"connectionString": "::Name::KPRC",
+		"tableName": "AASystemTable_ActiveUsers",
+		"fieldMap": "",
+		"maxDays": 3
+	},
+	"__token": "77be3c6b95bb481eac919f8bd6653609",
+	"application": {
+		"onAppstart": "",
+		"library": ""
+	},
+	"publish": {
+		"onPublish": "",
+		"library": ""
+	},
+	"usePhantomJStoConvertToPDF": true,
+	"protocol": "https:",
+	"security": {
+		"prefix": "SEC",
+		"connectionstring": ""
+	}
+}
