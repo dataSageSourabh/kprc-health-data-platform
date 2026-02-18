@@ -1,9 +1,9 @@
-KPRC Healthcare CRM
-📌 Overview
+**KPRC Healthcare CRM**
+**📌 Overview**
 
 KPRC Healthcare CRM is a database-driven clinic management system built using Alpha Anywhere. The platform is designed to manage patient records, appointment scheduling, treatment history, and billing operations with a structured relational database architecture.
 
-🚀 Key Features
+**🚀 Key Features**
 
 Patient Registration & Profile Management
 
@@ -17,7 +17,7 @@ Billing & Payment Tracking
 
 Structured Data Storage with Relational Database
 
-🛠 Tech Stack
+**🛠 Tech Stack**
 
 Platform: Alpha Anywhere
 
@@ -27,7 +27,7 @@ Architecture: Relational Database Model
 
 Backend Logic: Server-side scripting (Alpha)
 
-🗄 Database Design
+**🗄 Database Design**
 
 The system follows normalized relational schema design.
 
@@ -43,7 +43,7 @@ treatments
 
 payments
 
-Relationships:
+**Relationships:**
 
 One patient → Many appointments
 
@@ -53,7 +53,7 @@ One appointment → One treatment record
 
 One appointment → One payment entry
 
-Indexes applied on:
+**Indexes applied on:**
 
 appointment_date
 
@@ -61,7 +61,7 @@ patient_id
 
 doctor_id
 
-📊 Data Engineering Focus
+**📊 Data Engineering Focus**
 
 Structured relational schema (3NF)
 
@@ -73,7 +73,7 @@ Query-ready dataset for analytics
 
 Designed for scalability and reporting
 
-📈 Sample Analytics Use Cases
+**📈 Sample Analytics Use Cases**
 
 Monthly appointment trends
 
@@ -83,7 +83,7 @@ Repeat patient analysis
 
 Peak booking hour identification
 
-🔮 Future Enhancements
+**🔮 Future Enhancements**
 
 Dashboard with appointment analytics
 
@@ -93,7 +93,7 @@ Automated reminder system
 
 Role-based access control
 
-👨‍💻 Author
+**👨‍💻 Author**
 
-Sourabh Rathore
-Data Engineering | SQL | Database Design | ETL | Scalable Data Systems
+**Sourabh Rathore
+Data Engineering | SQL | Database Design | ETL | Scalable Data Systems**
