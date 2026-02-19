@@ -6,7 +6,6 @@ KPRC Healthcare CRM is a database-driven clinic management system built using Al
 **🚀 Key Features**
 
 Patient Registration & Profile Management
-
 Appointment Scheduling System
 
 Doctor/Therapist Availability Tracking
