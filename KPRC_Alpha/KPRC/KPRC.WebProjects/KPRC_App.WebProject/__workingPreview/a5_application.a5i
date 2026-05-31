@@ -14,7 +14,7 @@
 
 Dim _aliases_ as c
 _aliases_ = <<%txt%
-[PathAlias.ADB_Path]|D:\KPRC Website\KPRC_Alpha\KPRC
+[PathAlias.ADB_Path]|D:\personal\KPRC_Project\KPRC_Alpha\KPRC
 %txt%
 
 'Creates a global collection called '_A5_Aliases' 
@@ -296,7 +296,6 @@ DIM siteDefaults.http01ChallengeOptions.challengeVendor as C = "LetsEncrypt"
 DIM siteDefaults.http01ChallengeOptions.wellknownPath as C = ".well-known\acme-challenge"
 DIM siteDefaults.extendAuthenticationCookieOnEachRequest as L
 DIM siteDefaults.defaultExtensions as C
-DIM siteDefaults.executionTimeout as N
 DIM transform as P
 DIM transform.enable as L
 DIM transform.settingsJSON as C
@@ -377,7 +376,7 @@ DIM activeUsers.connectionString as C = "::Name::KPRC"
 DIM activeUsers.tableName as C = "AASystemTable_ActiveUsers"
 DIM activeUsers.fieldMap as C
 DIM activeUsers.maxDays as N = 3
-DIM __token as C = "0a50b8d5495a45a59d0dc9dd610e734e"
+DIM __token as C = "d3beb9c4805f4c16b8d9a6fc21d9760d"
 DIM application as P
 DIM application.onAppstart as C
 DIM application.library as C
@@ -399,10 +398,10 @@ dim gv.__buildNumberExe__ as n
 dim gv.__buildNumberAddins__ as n 
 dim gv.__guid as c 
 dim gv.__A5PublishVersion as n 
-gv.__A5PublishTimestamp = 2026424201174223309
+gv.__A5PublishTimestamp = 2026171701001755308
 gv.__buildNumberExe__ = 10020
 gv.__buildNumberAddins__ = 5729
-gv.__guid = "2f4c289d-442a-4e55-8987-71161276a7ef"
+gv.__guid = "7fde90f2-9d6e-47c6-8ac4-7c4ff4215d4d"
 gv.__control = <<%txtcontrol%
 hV7+2zUTjP0=
 %txtcontrol%

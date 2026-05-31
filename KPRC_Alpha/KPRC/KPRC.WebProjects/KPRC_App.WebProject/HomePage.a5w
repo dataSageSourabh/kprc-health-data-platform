@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<!-- must use in order to make XP Themes render -->
+<meta HTTP-EQUIV="MSThemeCompatible" content="Yes" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="mobile-web-app-capable" content="yes" />
+
+<head>
+
+
+<!--You can define a page comment and description that will be displayed in the Web Control Panel. For example-->
+<!-- comment -- comment -->
+<!-- description -- description -->
+
+<%a5
+
+
+Delete tmpl_Home
+DIM tmpl_Home as P
+tmpl_Home = a5w_load_component("Home") ''SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (LOAD:Home)
+
+'Override settings start -----------------------------------------
+with tmpl_Home
+.alias = "Home"
+_dialogFilename = "Home"
+end with 
+'Override settings end -----------------------------------------
+
+delete x_Home
+dim x_Home as p
+x_Home = a5w_run_Component(tmpl_Home) 'SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (RUN:tmpl) (EDIT:Home)
+
+?x_Home.Output.Head.JavaScript
+?x_Home.Output.Head.CSS_Link
+
+?x_Home.Output.Head.Title 
+%>
+
+
+
+
+</head>
+
+
+<body class="iOSPage">
+
+
+
+
+<%a5 ?x_Home.Output.Body.Dialog2_HTML %>
+<%a5 ?a5dialogHelper_generateCORSHeaders() %>
+
+</body>
+
+</html>
+

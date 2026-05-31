@@ -164,5 +164,10 @@
 		"page": "Home.a5w",
 		"action": "allow",
 		"groups": ""
+	},
+	{
+		"page": "PatientUX.a5wcmp",
+		"action": "allow",
+		"groups": ""
 	}]
 }
